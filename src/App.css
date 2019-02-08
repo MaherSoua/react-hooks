@@ -22,6 +22,16 @@
   color: #61dafb;
 }
 
+.button {
+  padding: 3px;
+  background: #1849ac;
+}
+
+.button-container {
+  position: "absolute"; 
+  background: "#886688"
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

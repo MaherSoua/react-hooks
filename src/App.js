@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ComponentFun from './FunctionalComponent';
+import PureComp from "./PureComp";
+
 
 class App extends Component {
   render() {
@@ -20,6 +23,8 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <ComponentFun />
+        <PureComp score="2" total="10" />
       </div>
     );
   }
